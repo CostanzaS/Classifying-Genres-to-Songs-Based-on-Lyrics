@@ -45,7 +45,7 @@ In order to run the project only the jupyter notebook is needed.
 
  [...dataset](https://www.kaggle.com/gyani95/380000-lyrics-from-metrolyrics)
  
-![dataset](
+![dataset](https://github.com/CostanzaS/Classifying-Genres-to-Songs-Based-on-Lyrics/blob/master/pictures/Schermata%202019-05-28%20alle%201.47.08%20AM.png)
 
 ## Accuracy (full dataset)
 
