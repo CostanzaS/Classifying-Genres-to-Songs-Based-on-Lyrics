@@ -61,7 +61,7 @@ Genres with less occurence such as "Electronic", ”Folk”, ”Indie”, ”Not
 
 ## Accuracy (full dataset)
 
-| Classifier          | BOW      | TFIDF |
+| Classifier         | BOW      | TFIDF |
 |-------------------:|:--------:|:------|
 | Decision trees     | 76.5%    | 76.2% |
 | Multinomial NB     | 58.7%    | 56.5% |
@@ -70,15 +70,15 @@ Genres with less occurence such as "Electronic", ”Folk”, ”Indie”, ”Not
 
 ## Accuracy (full dataset)
 
-| Classifier       | Word2Vec |
+| Classifier      | Word2Vec |
 |----------------:|:--------:|
 | XGBoost         | 60.3%    | 
 | Linear SVM      | 59.4%    | 
 
 ## General Findings
 
-![TFIDF with RF](https://github.com/CostanzaS/Classifying-Genres-to-Songs-Based-on-Lyrics/blob/master/RandomForestTfidf_full.png)
-![BOW with RF](https://github.com/CostanzaS/Classifying-Genres-to-Songs-Based-on-Lyrics/blob/master/BOW_RF.png)
+TFIDF with RF : ![TFIDF with RF](https://github.com/CostanzaS/Classifying-Genres-to-Songs-Based-on-Lyrics/blob/master/RandomForestTfidf_full.png)
+BOW with RF : ![BOW with RF](https://github.com/CostanzaS/Classifying-Genres-to-Songs-Based-on-Lyrics/blob/master/BOW_RF.png)
 
 ## Conclusion
 
