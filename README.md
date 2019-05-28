@@ -40,16 +40,28 @@ pip install gensim
 
 ## Dataset
 
-The data set was taken from Kaggle which consists of 380000+ song which was split into a train and test set.
+The data set was taken from [Kaggle](https://www.kaggle.com/gyani95/380000-lyrics-from-metrolyrics) which consists of 380000+ song which was split into a train and test set.
 In order to run the project only the jupyter notebook is needed.
 
- [...dataset](https://www.kaggle.com/gyani95/380000-lyrics-from-metrolyrics)
- 
+**Content**
+The dataset initially consisted of 6 columns:
+
+* ID
+* Song
+* Artist
+* Year
+* Genre
+* Lyrics
+
+However, Index, Artist and Year were dropped as they were not relevant to our classification.
+
 ![dataset](https://github.com/CostanzaS/Classifying-Genres-to-Songs-Based-on-Lyrics/blob/master/pictures/Schermata%202019-05-28%20alle%201.47.08%20AM.png)
+
+Genres with less occurence such as "Electronic", ”Folk”, ”Indie”, ”Not Available”, ”Other”and ”R&B” were dropped as they were not significant. However, after running some tests, we also decided to drop ”Rock” as it is so dominant in thedataset.
 
 ## Accuracy (full dataset)
 
-| Cassifier          | BOW      | TFIDF |
+| Classifier          | BOW      | TFIDF |
 |-------------------:|:--------:|:------|
 | Decision trees     | 76.5%    | 76.2% |
 | Multinomial NB     | 58.7%    | 56.5% |
@@ -57,13 +69,16 @@ In order to run the project only the jupyter notebook is needed.
 | Gradient Boosting  | 61.0%    | 61.5% |
 
 ## Accuracy (full dataset)
-| Cassifier       | Word2Vec |
+
+| Classifier       | Word2Vec |
 |----------------:|:--------:|
 | XGBoost         | 60.3%    | 
 | Linear SVM      | 59.4%    | 
 
+## General Findings
+
 
 
 ## Credits
-Costanza Siani
-Sarah Waseem
+*Costanza Siani
+*Sarah Waseem
