@@ -77,7 +77,8 @@ Genres with less occurence such as "Electronic", ”Folk”, ”Indie”, ”Not
 
 ## General Findings
 
-![TFIDF with RF](https://github.com/CostanzaS/Classifying-Genres-to-Songs-Based-on-Lyrics/blob/master/RandomForestTfidf_full.png) and ![BOW with RF](https://github.com/CostanzaS/Classifying-Genres-to-Songs-Based-on-Lyrics/blob/master/BOW_RF.png)
+![TFIDF with RF](https://github.com/CostanzaS/Classifying-Genres-to-Songs-Based-on-Lyrics/blob/master/RandomForestTfidf_full.png)
+![BOW with RF](https://github.com/CostanzaS/Classifying-Genres-to-Songs-Based-on-Lyrics/blob/master/BOW_RF.png)
 
 ## Conclusion
 
@@ -87,5 +88,5 @@ It can also be seen that in a way the model does not work that bad as it accurat
 Therefore, all models performed quite well depending on the classifiers used and the best classifier to use is the Random Forest Classifier.
 
 ## Credits
-*Costanza Siani
-*Sarah Waseem
+* Costanza Siani
+* Sarah Waseem
