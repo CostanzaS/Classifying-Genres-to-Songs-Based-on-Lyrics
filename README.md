@@ -77,7 +77,14 @@ Genres with less occurence such as "Electronic", ”Folk”, ”Indie”, ”Not
 
 ## General Findings
 
+![TFIDF with RF](https://github.com/CostanzaS/Classifying-Genres-to-Songs-Based-on-Lyrics/blob/master/RandomForestTfidf_full.png) and ![BOW with RF](https://github.com/CostanzaS/Classifying-Genres-to-Songs-Based-on-Lyrics/blob/master/BOW_RF.png)
 
+## Conclusion
+
+Firstly, we realized that adding Rock to our dataset was making it biased. Therefore, we removed it to get higher accuracies.
+Secondly, from the confusion matrices we could see that although it was still trying to classify most songs for Pop, as this was now the highest occurring genre, it also did quite well with others. Genres such as Hip-Hop and Country were classified correctly many times as well. This is due to the similar style in Hip-Hop and the repeated chorus style in Country. 
+It can also be seen that in a way the model does not work that bad as it accurately classifies some of the less represented genres well too. This is already better than humans who also have a hard time classifying these songs based on just the lyrics.
+Therefore, all models performed quite well depending on the classifiers used and the best classifier to use is the Random Forest Classifier.
 
 ## Credits
 *Costanza Siani
