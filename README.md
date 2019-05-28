@@ -4,7 +4,6 @@ Classification in music is a field that is increasingly being researched. Music 
 
 For the text retrieval, Bag-of-Words, TF-IDF and Word2Vec were used as models. These were tested with different classifiers to analyze how accurate the classification was.
 
-...dataset
 
 ## Features
 * Classify songs from their lyrics
@@ -13,7 +12,7 @@ For the text retrieval, Bag-of-Words, TF-IDF and Word2Vec were used as models. T
 
 
 ## Framework
-Built with <a href="https://jupyter.org" target="_blank">Jupyter Notebook</a>.</h4>
+Our framework was <a href="https://jupyter.org" target="_blank">Jupyter Notebook</a>.</h4>
 
 
 ## Installation
@@ -41,8 +40,28 @@ pip install gensim
 
 ## Files
 
-The data set was taken from kaggle which consists of 380000+ song which was split into a train and test set and can be found in the repository.
+The data set was taken from Kaggle which consists of 380000+ song which was split into a train and test set.
 In order to run the project only the jupyter notebook is needed.
 
+ [...dataset](https://www.kaggle.com/gyani95/380000-lyrics-from-metrolyrics)
+
+## Accuracy (full dataset)
+
+| Cassifier          | BOW      | TFIDF |
+|-------------------:|:--------:|:------|
+| Decision trees     | 76.5%    | 76.2% |
+| Multinomial NB     | 58.7%    | 56.5% |
+| Random Forest      | 76.8%    | 76.8% | 
+| Gradient Boosting  | 61.0%    | 61.5% |
+
+## Accuracy (full dataset)
+| Cassifier       | Word2Vec |
+|----------------:|:--------:|
+| XGBoost         | 60.3%    | 
+| Linear SVM      | 59.4%    | 
 
 
+
+## Credits
+Costanza Siani
+Sarah Waseem
