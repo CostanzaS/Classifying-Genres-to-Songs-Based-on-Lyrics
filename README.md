@@ -38,12 +38,14 @@ pip install nltk
 pip install gensim
 ```
 
-## Files
+## Dataset
 
 The data set was taken from Kaggle which consists of 380000+ song which was split into a train and test set.
 In order to run the project only the jupyter notebook is needed.
 
  [...dataset](https://www.kaggle.com/gyani95/380000-lyrics-from-metrolyrics)
+ 
+![dataset](
 
 ## Accuracy (full dataset)
 
